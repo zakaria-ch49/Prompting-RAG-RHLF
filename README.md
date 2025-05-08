@@ -1,11 +1,11 @@
 
 <div>
-<img src="https://github.com/user-attachments/assets/68851a0e-c6eb-4d59-beaa-e428b497f94a" width=1100>
+<img src="https://i0.wp.com/thelettertwo.com/wp-content/uploads/2024/02/ai-economy-rag-explained-1600x914-1.jpg?w=1600&ssl=1" width=1100>
 <div>
 
 
 <div align="center" style="font-family: 'Times New Roman', Times, serif; color: #3498db;">
-  <h1 style="font-size: 4em; margin-bottom: 80px;">
+  <h1 style="font-size: 10em; margin-bottom: 180px;">
     Projet Machine Learning :<br>
     `Prompting(RAG), RHLF`
   </h1>
@@ -18,7 +18,7 @@
                           margin-right: 15%;
                           margin-top: 10px;
                           font-size: 1.3em;">
-  réalisé par: SABI Houssame & CHADADI Zakaria
+   Realised : SABI Houssame & CHADADI Zakaria
 </div>
 
 &nbsp;
@@ -62,7 +62,36 @@ These methods are essential for building advanced and trustworthy AI systems.
 
 ## ⚙️ Package Installation
 
-Install the required packages using pip:
+- **LlamaIndex**: A data framework for building LLM (Large Language Model) applications by indexing and querying data with ease.
+  ```bash
+  %pip install llama-index-llms-openrouter
+  !pip install llama-index
+  %pip install llama-index-embeddings-huggingface
+  %pip install llama-index-embeddings-instructor ```
+- **OpenAI**: An AI research and deployment company offering advanced language models like GPT for natural language understanding and generation.
+- **Streamlit**: A Python library used to quickly build and share interactive web apps for data science and machine learning projects.
+  ```
+  pip install requests pymupdf streamlit
+  ```
 
-```bash
-pip install openai transformers datasets faiss-cpu
+---
+
+ ## 📦 Library Imports
+
+  ### -Modules:
+  Uses os to create an educational_docs folder and requests to fetch files.
+
+  ### -Sources:
+  A dictionary (pdf_sources) maps filenames to URLs (but commented out, so empty).
+
+  ### -Download:
+  For each URL, checks if the HTTP response is valid and if the content is a PDF (via the %PDF header).
+
+  ### -Save:
+  Writes valid PDFs to the folder.
+
+  ### -Feedback:
+  Clear success/error messages in the console.
+
+⚠️ Key Note: URLs are commented out → uncomment them to enable downloads.
+
