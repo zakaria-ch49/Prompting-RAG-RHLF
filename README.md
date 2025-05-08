@@ -124,3 +124,12 @@ It imports the HuggingFaceEmbedding class to generate vector representations of 
 
 - No additional parameters (e.g., device, pooling) are specified, so default settings of HuggingFaceEmbedding are used.
 
+<br>
+<br>
+<br>
+
+### ➡️ Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex
+ <div>
+ <img src="https://github.com/user-attachments/assets/a8595f88-7ce2-4813-a959-3d5e5ac600ee" width=1000>
+ </div>
+ <br>
