@@ -200,8 +200,11 @@ The code is a quick-start setup for basic search/retrieval tasks but requires cu
 
 ### ➡️ Ask a Question Over Indexed Documents with LlamaIndex
  <div>
- <img src="https://github.com/user-attachments/assets/247a1249-5c5b-4852-91d1-926aac5439ee" width=1000>
+ <img src="https://github.com/user-attachments/assets/f4d480de-f4f9-4324-a69e-0298528ecf4b" width=1000>
  </div>
  <br>
 
+The line `query_engine = index.as_query_engine()` initializes a query engine using a vector index (assumed to contain documents like educational PDFs).<br>
+The command `response = query_engine.query("who is houssame sabi?")` performs a semantic search across the indexed documents, retrieves relevant information, and uses a language model (LLM) to synthesize a coherent answer.<br>
+Finally, `print(response)` displays the result, which could be a concise summary or extracted details about "houssame sabi" based on the indexed content. This transforms raw documents into an interactive question-answering system, assuming the indexed data contains information about the queried subject.
 
