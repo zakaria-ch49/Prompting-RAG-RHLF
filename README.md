@@ -160,13 +160,11 @@ The chosen model is resource-intensive : verify hardware availability before exe
 
 ### ➡️ Create a VectorStoreIndex from Files in ‘educational_docs’ Folder
  <div>
- <img src="https://github.com/user-attachments/assets/e27e33bd-8ae0-4d9f-b9d4-c83f0796b6f5" width=1000>
+ <img src="https://github.com/user-attachments/assets/c170c2c3-68d3-45a4-a669-fe670e3c4d4b" width=1000>
  </div>
  <br>
-----
-Loads documents from the educational_docs directory using SimpleDirectoryReader.
 
-Constructs a vector index (VectorStoreIndex) from the documents, automatically converting text into embeddings with LlamaIndex's default model.
-
-The minimalist setup leverages predefined configurations, making it ideal for prototyping, but lacks customization (e.g., embedding models, storage settings) for advanced use cases.
+Loads documents from the educational_docs directory using SimpleDirectoryReader.<br>
+Constructs a vector index (VectorStoreIndex) from the documents, automatically converting text into embeddings with LlamaIndex's default model.<br>
+The minimalist setup leverages predefined configurations, making it ideal for prototyping, but lacks customization (`embedding models, storage settings`) for advanced use cases.
  
