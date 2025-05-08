@@ -188,9 +188,20 @@ The code is a quick-start setup for basic search/retrieval tasks but requires cu
 
 ### ➡️ Assign Custom LLM to LlamaIndex Global Configuration
  <div>
- <img src="https://github.com/user-attachments/assets/9cd18f56-cf95-4212-b67d-79d8d293749b" width=1000>
+ <img src="https://github.com/user-attachments/assets/cb7a8447-55cf-40a8-a411-f515b93754c1" width=1000>
  </div>
  <br>
 
  By assigning `Settings.llm = llm`, you ensure that components like query engines, chatbots, or retrievers automatically use your pre-initialized `llm` (`OpenAI, OpenRouter, or another provider`) for text generation. This centralizes model management, simplifies code, and avoids repetitive parameter passing. Ensure the `llm` object is properly initialized (API keys, model choice) before this assignment.
+
+<br>
+<br>
+<br>
+
+### ➡️ Ask a Question Over Indexed Documents with LlamaIndex
+ <div>
+ <img src="https://github.com/user-attachments/assets/cb7a8447-55cf-40a8-a411-f515b93754c1" width=1000>
+ </div>
+ <br>
+
 
