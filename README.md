@@ -77,6 +77,9 @@ These methods are essential for building advanced and trustworthy AI systems.
 ---
 
  ## 📦 Library Imports
+ <div>
+ <img src="https://github.com/user-attachments/assets/b54359a9-001c-4a1b-a32f-17074315f716">
+ </div>
 
   ### -Modules:
   Uses os to create an educational_docs folder and requests to fetch files.
