@@ -47,8 +47,8 @@ These methods are essential for building advanced and trustworthy AI systems.
 
 1. [🎯 Project Goals](#project-goals)  
 2. [⚙️ Package Installation](#package-installation)  
-3. [📦 Library Imports](#library-imports)  
-4. [💡 Example Code Explanation](#example-code-explanation)
+3. [📦 Example Code Explanation](#example-code-explanation)  
+
 
 ---
 
@@ -76,7 +76,7 @@ These methods are essential for building advanced and trustworthy AI systems.
 
 ---
 
- ## 📦 Library Imports
+ ## 📦 Example Code Explanation
  ### ➡️ Download and Save Educational PDFs from OpenStax
  <div>
  <img src="https://github.com/user-attachments/assets/fcd36e56-928a-4b69-9d5b-d8f266e5ef77" width=1000>
@@ -168,3 +168,29 @@ Loads documents from the educational_docs directory using SimpleDirectoryReader.
 Constructs a vector index (VectorStoreIndex) from the documents, automatically converting text into embeddings with LlamaIndex's default model.<br>
 The minimalist setup leverages predefined configurations, making it ideal for prototyping, but lacks customization (`embedding models, storage settings`) for advanced use cases.
  
+<br>
+<br>
+<br>
+
+### ➡️ Load and Index Local PDF Documents Using LlamaIndex
+ <div>
+ <img src="https://github.com/user-attachments/assets/9cd18f56-cf95-4212-b67d-79d8d293749b" width=1000>
+ </div>
+ <br>
+
+Loads documents from the `educational_docs` folder using `SimpleDirectoryReader`.<br>
+Builds a vector index (`VectorStoreIndex`) from the documents, leveraging LlamaIndex's default embedding model and storage settings.<br>
+The code is a quick-start setup for basic search/retrieval tasks but requires customization (`embedding choice, storage backend`) for production-grade use.<br>
+
+<br>
+<br>
+<br>
+
+### ➡️ Assign Custom LLM to LlamaIndex Global Configuration
+ <div>
+ <img src="https://github.com/user-attachments/assets/9cd18f56-cf95-4212-b67d-79d8d293749b" width=1000>
+ </div>
+ <br>
+
+ By assigning `Settings.llm = llm`, you ensure that components like query engines, chatbots, or retrievers automatically use your pre-initialized `llm` (`OpenAI, OpenRouter, or another provider`) for text generation. This centralizes model management, simplifies code, and avoids repetitive parameter passing. Ensure the `llm` object is properly initialized (API keys, model choice) before this assignment.
+
