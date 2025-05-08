@@ -53,7 +53,7 @@ These methods are essential for building advanced and trustworthy AI systems.
   - [Streamlit](#streamlit-)
 - [📦 Example Code Explanation](#-example-code-explanation)
   - [Download and Save Educational PDFs from OpenStax](#%EF%B8%8F-download-and-save-educational-pdfs-from-openstax)
-  - [Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex](#s%EF%B8%8F-set-up-a-deepseek-chat-model-via-openrouter-api-with-llamaindex)
+  - [Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex](#%EF%B8%8F-set-up-a-deepseek-chat-model-via-openrouter-api-with-llamaindex)
   - [Initialize Qwen2-7B Embedding Model via HuggingFace in LlamaIndex](#%EF%B8%8F-initialize-qwen2-7b-embedding-model-via-huggingface-in-llamaindex)
   - [Set Up a Multilingual Embedding Model Qwen2-7B in LlamaIndex](#%EF%B8%8F-set-up-a-multilingual-embedding-model-qwen2-7b-in-llamaindex)
   - [Create a VectorStoreIndex from Files in educational_docs Folder](#%EF%B8%8F-create-a-vectorstoreindex-from-files-in-educational_docs-folder)
@@ -112,7 +112,7 @@ If the download fails or the content is not a valid PDF, it prints an error mess
 
 ### ➡️ Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex
  <div>
- <img src="https://github.com/user-attachments/assets/589c0846-2689-4666-9647-bba25b68052b" width=1000>
+ <img src="https://github.com/user-attachments/assets/4aa6ce91-df17-40fa-ae69-45f8b2490929" width=1000>
  </div>
  <br>
 
