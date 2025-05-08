@@ -93,7 +93,33 @@ If the download fails or the content is not a valid PDF, it prints an error mess
 <br>
 
 ### ➡️ Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex
+ <div>
+ <img src="https://github.com/user-attachments/assets/589c0846-2689-4666-9647-bba25b68052b" width=1000>
+ </div>
+ <br>
 
-In this part code configures a language model (LLM) via OpenRouter (a service providing access to multiple AI models) using the llama_index library. It imports the required classes (OpenRouter for integration, ChatMessage—unused here), initializes an LLM client with a hardcoded API key (⚠️ security risk), and specifies the free deepseek/deepseek-chat:free model, limiting responses to 256 tokens and setting a 4096-token context window. Commented lines suggest using environment variables for secure API key storage (best practice ignored here). This snippet acts as a foundational setup for interacting with LLMs via OpenRouter but requires adjustments (security fixes, query logic) for real-world use.
+In this part code configures a language model (LLM) via OpenRouter (a service providing access to multiple AI models) using the llama_index library. It imports the required classes (OpenRouter for integration, ChatMessage—unused here), initializes an LLM client with a hardcoded API key (⚠️ security risk), and specifies the free deepseek/deepseek-chat:free model, limiting responses to 256 tokens and setting a 4096-token context window. Commented lines suggest using environment variables for secure API key storage (best practice ignored here).<br>
+This snippet acts as a foundational setup for interacting with LLMs via OpenRouter but requires adjustments (security fixes, query logic) for real-world use.
+<br>
+<br>
+<br>
 
+### ➡️ Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex
+ <div>
+ <img src="https://github.com/user-attachments/assets/589c0846-2689-4666-9647-bba25b68052b" width=1000>
+ </div>
+ <br>
+ It imports the HuggingFaceEmbedding class to generate vector representations of text. Two options are shown:
+
+Commented-out line (# embed_model = HuggingFaceEmbedding()) would load the default BAAI/bge-small-en model, a lightweight and efficient embedding model optimized for English.
+
+Active line explicitly loads the Alibaba-NLP/gte-Qwen2-7B-instruct model, a far larger and more powerful model (7 billion parameters) designed for advanced multilingual or complex tasks.
+
+Key implications:
+
+Using Alibaba-NLP/gte-Qwen2-7B-instruct implies a need for high-quality embeddings (e.g., deep contextual understanding, multilingual support) but requires significant computational resources (GPU/RAM).
+
+The commented option (bge-small-en) offers a lightweight alternative for simpler tasks or resource-constrained environments.
+
+No additional parameters (e.g., device, pooling) are specified, so default settings of HuggingFaceEmbedding are used.
 
