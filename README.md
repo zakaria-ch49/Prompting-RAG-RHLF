@@ -214,10 +214,10 @@ Finally, `print(response)` displays the result, which could be a concise summary
 
 ### ➡️ Interactive Educational Q&A Web App Using Streamlit and LlamaIndex
  <div>
- <img src="src="https://github.com/user-attachments/assets/3991ac8e-026a-456e-9586-2ae060ca44d0" width=1000>
+ <img src="https://github.com/user-attachments/assets/3991ac8e-026a-456e-9586-2ae060ca44d0" width=1000>
  </div>
- <br> 
 
+ 
 1. **Interface Setup**:  
    - `st.title("Educational Assistant")` : Sets the app title.  
    - `st.text_input("Ask a question:")` : Creates a text box for users to input questions.  
@@ -230,6 +230,13 @@ Finally, `print(response)` displays the result, which could be a concise summary
    - `st.radio(...)` : Asks users to rate the answer (👍 Good / 👎 Bad).  
    - Logs the question, answer, and feedback to `feedback_log.csv` for later analysis.  
 
+<br>
+<br>
+<br>
 
+### ➡️ Run the Educational Q&A App with Streamlit
+ <div>
+ <img src="https://github.com/user-attachments/assets/3991ac8e-026a-456e-9586-2ae060ca44d0" width=1000>
+ </div>
 
 
