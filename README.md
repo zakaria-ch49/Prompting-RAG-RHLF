@@ -17,14 +17,14 @@ Ces techniques sont essentielles pour créer des systèmes d'IA avancés et perf
 
 ## Sommaire
 
-1. [🎯 Objectifs du projet](#objectifs-du-projet)
-2. [⚙️ Installation des packages requis](#installation-des-packages-requis)
-3. [📦 Importation des librairies](#importation-des-librairies)
-4. [💡 Code d'explication](#code-dexplication)
+1. [ Objectifs du projet](#objectifs-du-projet)
+2. [ Installation des packages requis](#installation-des-packages-requis)
+3. [ Importation des librairies](#importation-des-librairies)
+4. [ Code d'explication](#code-dexplication)
 
 ---
 
-## 🎯 Objectifs du projet
+##  Objectifs du projet
 
 - Comprendre le rôle des prompts dans l’interaction avec les LLMs (Large Language Models).
 - Implémenter un pipeline simple de RAG avec récupération documentaire.
@@ -32,7 +32,7 @@ Ces techniques sont essentielles pour créer des systèmes d'IA avancés et perf
 
 ---
 
-## ⚙️ Installation des packages requis
+##  Installation des packages requis
 
 Exécute les commandes suivantes pour installer les dépendances :
 
