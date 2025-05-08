@@ -208,3 +208,28 @@ The line `query_engine = index.as_query_engine()` initializes a query engine usi
 The command `response = query_engine.query("who is houssame sabi?")` performs a semantic search across the indexed documents, retrieves relevant information, and uses a language model (LLM) to synthesize a coherent answer.<br>
 Finally, `print(response)` displays the result, which could be a concise summary or extracted details about "houssame sabi" based on the indexed content. This transforms raw documents into an interactive question-answering system, assuming the indexed data contains information about the queried subject.
 
+<br>
+<br>
+<br>
+
+### ➡️ Interactive Educational Q&A Web App Using Streamlit and LlamaIndex
+ <div>
+ <img src="src="https://github.com/user-attachments/assets/3991ac8e-026a-456e-9586-2ae060ca44d0" width=1000>
+ </div>
+ <br> 
+
+1. **Interface Setup**:  
+   - `st.title("Educational Assistant")` : Sets the app title.  
+   - `st.text_input("Ask a question:")` : Creates a text box for users to input questions.  
+
+2. **Query Processing**:  
+   - When a question is submitted (`if user_question:`), it uses a pre-initialized `query_engine` (not shown here) to generate an AI-powered answer via `query_engine.query(user_question)`.  
+   - `st.write(response.response)` : Displays the answer to the user.  
+
+3. **Feedback System**:  
+   - `st.radio(...)` : Asks users to rate the answer (👍 Good / 👎 Bad).  
+   - Logs the question, answer, and feedback to `feedback_log.csv` for later analysis.  
+
+
+
+
