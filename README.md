@@ -7,7 +7,7 @@
 <div align="center" style="font-family: 'Times New Roman', Times, serif; color: #3498db;">
   <h1 style="font-size: 10em; margin-bottom: 180px;">
     Projet Machine Learning :<br>
-    `Prompting(RAG), RHLF`
+    "Prompting(RAG), RHLF"
   </h1>
 </div>
 
@@ -17,8 +17,8 @@
                           font-weight: bold;
                           margin-right: 15%;
                           margin-top: 10px;
-                          font-size: 1.3em;">
-   Realised : SABI Houssame & CHADADI Zakaria
+                          font-size: 20em;">
+   Realised by : SABI Houssame & CHADADI Zakaria
 </div>
 
 &nbsp;
@@ -43,11 +43,22 @@ These methods are essential for building advanced and trustworthy AI systems.
 
 ---
 
-## Summary
 
-1. [🎯 Project Goals](#project-goals)  
-2. [⚙️ Package Installation](#package-installation)  
-3. [📦 Example Code Explanation](#example-code-explanation)  
+## 📚 Table of Contents
+
+- [🎯 Project Goals](#project-goals)
+- [⚙️ Package Installation](#package-installation)
+- [📦 Example Code Explanation](#example-code-explanation)
+  - [Download and Save Educational PDFs from OpenStax](#download-and-save-educational-pdfs-from-openstax)
+  - [Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex](#set-up-a-deepseek-chat-model-via-openrouter-api-with-llamaindex)
+  - [Initialize Qwen2-7B Embedding Model via HuggingFace in LlamaIndex](#initialize-qwen2-7b-embedding-model-via-huggingface-in-llamaindex)
+  - [Set Up a Multilingual Embedding Model Qwen2-7B in LlamaIndex](#set-up-a-multilingual-embedding-model-qwen2-7b-in-llamaindex)
+  - [Create a VectorStoreIndex from Files in educational_docs Folder](#create-a-vectorstoreindex-from-files-in-educational_docs-folder)
+  - [Load and Index Local PDF Documents Using LlamaIndex](#load-and-index-local-pdf-documents-using-llamaindex)
+  - [Assign Custom LLM to LlamaIndex Global Configuration](#assign-custom-llm-to-llamaindex-global-configuration)
+  - [Ask a Question Over Indexed Documents with LlamaIndex](#ask-a-question-over-indexed-documents-with-llamaindex)
+  - [Interactive Educational QA Web App Using Streamlit and LlamaIndex](#interactive-educational-qa-web-app-using-streamlit-and-llamaindex)
+  - [Run the Educational QA App with Streamlit](#run-the-educational-qa-app-with-streamlit)
 
 
 ---
@@ -185,7 +196,7 @@ The code is a quick-start setup for basic search/retrieval tasks but requires cu
 <br>
 <br>
 <br>
-
+      
 ### ➡️ Assign Custom LLM to LlamaIndex Global Configuration
  <div>
  <img src="https://github.com/user-attachments/assets/cb7a8447-55cf-40a8-a411-f515b93754c1" width=1000>
@@ -197,7 +208,7 @@ The code is a quick-start setup for basic search/retrieval tasks but requires cu
 <br>
 <br>
 <br>
-
+      
 ### ➡️ Ask a Question Over Indexed Documents with LlamaIndex
  <div>
  <img src="https://github.com/user-attachments/assets/f4d480de-f4f9-4324-a69e-0298528ecf4b" width=1000>
@@ -211,7 +222,7 @@ Finally, `print(response)` displays the result, which could be a concise summary
 <br>
 <br>
 <br>
-
+    
 ### ➡️ Interactive Educational Q&A Web App Using Streamlit and LlamaIndex
  <div>
  <img src="https://github.com/user-attachments/assets/3991ac8e-026a-456e-9586-2ae060ca44d0" width=1000>
