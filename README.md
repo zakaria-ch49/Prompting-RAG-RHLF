@@ -236,7 +236,26 @@ Finally, `print(response)` displays the result, which could be a concise summary
 
 ### ➡️ Run the Educational Q&A App with Streamlit
  <div>
- <img src="https://github.com/user-attachments/assets/3991ac8e-026a-456e-9586-2ae060ca44d0" width=1000>
+ <img src="https://github.com/user-attachments/assets/eeb9078c-7e81-4d57-a7d9-b520466f890a" width=1000>
  </div>
 
+
+- **`!`** (if used in Jupyter/Colab): Executes a shell command directly from the notebook environment.  
+- **`streamlit run app.py`**: Starts the Streamlit server and opens the app in your default browser.  
+
+**Expected behavior**:  
+1. A browser tab opens with the "Educational Assistant" interface.  
+2. Users ask questions → AI generates answers using the pre-configured `query_engine`.  
+3. Feedback is logged to `feedback_log.csv` for later analysis.  
+
+**Console output example**:  
+```  
+Local URL: http://localhost:8501  
+Network URL: http://192.168.1.X:8501  
+```  
+**To stop**: Press `Ctrl+C` in the terminal.  
+
+**Requirements**:  
+- Streamlit must be installed (`pip install streamlit`).  
+- `app.py` must exist and be functional (with `query_engine` properly initialized).
 
