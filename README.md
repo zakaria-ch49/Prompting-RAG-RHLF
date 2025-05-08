@@ -77,24 +77,23 @@ These methods are essential for building advanced and trustworthy AI systems.
 ---
 
  ## 📦 Library Imports
+ ### ➡️ Download and Save Educational PDFs from OpenStax
  <div>
- <img src="https://github.com/user-attachments/assets/b54359a9-001c-4a1b-a32f-17074315f716">
+ <img src="https://github.com/user-attachments/assets/fcd36e56-928a-4b69-9d5b-d8f266e5ef77" width=1000>
  </div>
-
-  ### -Modules:
-  Uses os to create an educational_docs folder and requests to fetch files.
-
-  ### -Sources:
-  A dictionary (pdf_sources) maps filenames to URLs (but commented out, so empty).
-
-  ### -Download:
-  For each URL, checks if the HTTP response is valid and if the content is a PDF (via the %PDF header).
-
-  ### -Save:
-  Writes valid PDFs to the folder.
-
-  ### -Feedback:
-  Clear success/error messages in the console.
-
+ <br>
+This Python script imports the os and requests modules, creates a folder named educational_docs (if it doesn’t already exist) to store PDFs, and defines a dictionary called pdf_sources that maps file names to URLs of OpenStax documents (currently commented out, so inactive). For each entry in the dictionary, the script attempts to download the PDF via an HTTP request, checks if the response is valid and contains a proper PDF header (%PDF), then saves the file locally if successful. <br>
+If the download fails or the content is not a valid PDF, it prints an error message. Finally, it confirms the outcome of each operation through console messages.
+<br>
+<br>
 ⚠️ Key Note: URLs are commented out → uncomment them to enable downloads.
+
+<br>
+<br>
+<br>
+
+### ➡️ Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex
+
+In this part code configures a language model (LLM) via OpenRouter (a service providing access to multiple AI models) using the llama_index library. It imports the required classes (OpenRouter for integration, ChatMessage—unused here), initializes an LLM client with a hardcoded API key (⚠️ security risk), and specifies the free deepseek/deepseek-chat:free model, limiting responses to 256 tokens and setting a 4096-token context window. Commented lines suggest using environment variables for secure API key storage (best practice ignored here). This snippet acts as a foundational setup for interacting with LLMs via OpenRouter but requires adjustments (security fixes, query logic) for real-world use.
+
 
