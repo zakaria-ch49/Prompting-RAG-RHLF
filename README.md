@@ -46,9 +46,12 @@ These methods are essential for building advanced and trustworthy AI systems.
 
 ## 📚 Table of Contents
 
-- [🎯 Project Goals](#project-goals)
-- [⚙️ Package Installation](#package-installation)
-- [📦 Example Code Explanation](#example-code-explanation)
+- [🎯 Project Goals](#-project-goals)
+- [⚙️ Package Installation](#%EF%B8%8F-package-installation)
+  - [LlamaIndex](#llamaindex-)
+  - [OpenAI](#openai-)
+  - [Streamlit](#streamlit-)
+- [📦 Example Code Explanation](#-example-code-explanation)
   - [Download and Save Educational PDFs from OpenStax](#download-and-save-educational-pdfs-from-openstax)
   - [Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex](#set-up-a-deepseek-chat-model-via-openrouter-api-with-llamaindex)
   - [Initialize Qwen2-7B Embedding Model via HuggingFace in LlamaIndex](#initialize-qwen2-7b-embedding-model-via-huggingface-in-llamaindex)
@@ -73,14 +76,18 @@ These methods are essential for building advanced and trustworthy AI systems.
 
 ## ⚙️ Package Installation
 
-- **LlamaIndex**: A data framework for building LLM (Large Language Model) applications by indexing and querying data with ease.
+ ### LlamaIndex: <br>
+ A data framework for building LLM (Large Language Model) applications by indexing and querying data with ease.
   ```bash
   %pip install llama-index-llms-openrouter
   !pip install llama-index
   %pip install llama-index-embeddings-huggingface
-  %pip install llama-index-embeddings-instructor ```
-- **OpenAI**: An AI research and deployment company offering advanced language models like GPT for natural language understanding and generation.
-- **Streamlit**: A Python library used to quickly build and share interactive web apps for data science and machine learning projects.
+  %pip install llama-index-embeddings-instructor
+```
+### OpenAI: <br>
+An AI research and deployment company offering advanced language models like GPT for natural language understanding and generation.
+### Streamlit: <br>
+A Python library used to quickly build and share interactive web apps for data science and machine learning projects.
   ```
   pip install requests pymupdf streamlit
   ```
