@@ -106,20 +106,21 @@ This snippet acts as a foundational setup for interacting with LLMs via OpenRout
 
 ### ➡️ Set Up a DeepSeek Chat Model via OpenRouter API with LlamaIndex
  <div>
- <img src="https://github.com/user-attachments/assets/589c0846-2689-4666-9647-bba25b68052b" width=1000>
+ <img src="https://github.com/user-attachments/assets/a8595f88-7ce2-4813-a959-3d5e5ac600ee" width=1000>
  </div>
  <br>
- It imports the HuggingFaceEmbedding class to generate vector representations of text. Two options are shown:
+It imports the HuggingFaceEmbedding class to generate vector representations of text. Two options are shown:
 
-Commented-out line (# embed_model = HuggingFaceEmbedding()) would load the default BAAI/bge-small-en model, a lightweight and efficient embedding model optimized for English.
+1. Commented-out line (`embed_model = HuggingFaceEmbedding()`) :
+   - would load the default `BAAI/bge-small-en model`, a lightweight and efficient embedding model optimized for English.
 
-Active line explicitly loads the Alibaba-NLP/gte-Qwen2-7B-instruct model, a far larger and more powerful model (7 billion parameters) designed for advanced multilingual or complex tasks.
+2. Active line :
+   - explicitly loads the Alibaba-NLP/gte-Qwen2-7B-instruct model, a far larger and more powerful model (7 billion parameters) designed for advanced multilingual or complex tasks.
 
-Key implications:
+#### Key implications:
+- Using Alibaba-NLP/gte-Qwen2-7B-instruct implies a need for high-quality embeddings (e.g., deep contextual understanding, multilingual support) but requires significant computational resources (GPU/RAM).
 
-Using Alibaba-NLP/gte-Qwen2-7B-instruct implies a need for high-quality embeddings (e.g., deep contextual understanding, multilingual support) but requires significant computational resources (GPU/RAM).
+- The commented option (bge-small-en) offers a lightweight alternative for simpler tasks or resource-constrained environments.
 
-The commented option (bge-small-en) offers a lightweight alternative for simpler tasks or resource-constrained environments.
-
-No additional parameters (e.g., device, pooling) are specified, so default settings of HuggingFaceEmbedding are used.
+- No additional parameters (e.g., device, pooling) are specified, so default settings of HuggingFaceEmbedding are used.
 
