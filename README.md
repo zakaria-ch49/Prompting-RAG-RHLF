@@ -200,7 +200,7 @@ The code is a quick-start setup for basic search/retrieval tasks but requires cu
 
 ### ➡️ Ask a Question Over Indexed Documents with LlamaIndex
  <div>
- <img src="https://github.com/user-attachments/assets/cb7a8447-55cf-40a8-a411-f515b93754c1" width=1000>
+ <img src="https://github.com/user-attachments/assets/247a1249-5c5b-4852-91d1-926aac5439ee" width=1000>
  </div>
  <br>
 
